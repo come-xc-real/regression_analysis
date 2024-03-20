@@ -1,0 +1,29 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:                      y   R-squared (uncentered):                   0.972
+Model:                            OLS   Adj. R-squared (uncentered):              0.971
+Method:                 Least Squares   F-statistic:                              661.7
+Date:                Sun, 17 Mar 2024   Prob (F-statistic):                    3.14e-16
+Time:                        15:55:18   Log-Likelihood:                         -157.24
+No. Observations:                  20   AIC:                                      316.5
+Df Residuals:                      19   BIC:                                      317.5
+Df Model:                           1                                                  
+Covariance Type:            nonrobust                                                  
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+x1             0.1200      0.005     25.724      0.000       0.110       0.130
+==============================================================================
+Omnibus:                        6.632   Durbin-Watson:                   0.106
+Prob(Omnibus):                  0.036   Jarque-Bera (JB):                5.034
+Skew:                          -1.226   Prob(JB):                       0.0807
+Kurtosis:                       3.157   Cond. No.                         1.00
+==============================================================================
+
+Notes:
+[1] R² is computed without centering (uncentered) since the model does not contain a constant.
+[2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+
